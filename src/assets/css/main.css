@@ -1,0 +1,39 @@
+ul {
+    display: block !important;
+}
+ul.dropdown-menu {
+    display: none !important;
+}
+ul.dropdown-menu.show {
+    display: block !important;
+}
+.wrapper:before, .wrapper:after {
+    display: none;
+    content: "";
+}
+.navbar-custom-menu>.navbar-nav>li {
+    position: relative;
+    display: inline-block;
+}
+.skin-blue .sidebar-menu>li>.treeview-menu {
+    display: none !important;
+    padding: 0 25px 0;
+}
+.skin-blue  .treeview.menu-open .treeview-menu {
+    display: block !important;
+}
+.treeview-menu>li>a {
+    padding: 10px;
+}
+.table td, .table th {
+    text-align: center;
+    align-items:center;
+}
+.skin-blue .main-header .navbar .nav>li>a {
+    padding: 8px;
+}
+.main-header .navbar .nav>li>a>.label {
+    top: 0px !important;
+    right: 16px !important;
+
+}
